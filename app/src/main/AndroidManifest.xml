@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ace.vishal.attendance">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/atlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".Home"
+            >
+        </activity>
+        <activity android:name=".Home">
+        </activity>
+        <activity android:name=".Thirdsub"
+            android:label="Third Semester subjects"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".DataStructure"
+            android:label="Data Structure Attendance"
+            android:parentActivityName=".Thirdsub">
+        </activity>
+        <activity android:name=".AboutUs"
+        android:parentActivityName=".MainActivity"
+        android:label="About Us">
+    </activity>
+    </application>
+
+</manifest>

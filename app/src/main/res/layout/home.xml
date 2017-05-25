@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/atten2"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Take Attendance"
+        android:id="@+id/button"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="44dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="View Attendance"
+        android:background="@color/colorAccent"
+        android:id="@+id/button2"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Store Internal Marks"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/button3"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="View Internal Marks"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/button4"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:text="About Us"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/button5"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+</RelativeLayout>
